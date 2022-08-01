@@ -1,5 +1,5 @@
 html {
-    background-image: url('/assets/images/background-img.webp');
+    background-image: url('./images/background-img.webp');
     background-size: cover;
 
 }
@@ -35,7 +35,7 @@ html {
     background: hsla(0, 0%, 100%, 0);
 }
 
-#searchBtn {
+#button {
     background-color: hsla(177, 97%, 43%, 0.3);
     border-radius: 12px;
     width: 325px;
@@ -52,4 +52,9 @@ html {
     width: 325px;
     align-content: center;
     margin-top: 1rem;
+}
+
+#bgd {
+    background-color: hsla(177, 97%, 43%, 0.3);
+    border-radius: 12px;
 }
