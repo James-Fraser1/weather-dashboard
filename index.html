@@ -1,5 +1,4 @@
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +14,7 @@
   <title>Weather Dashboard</title>
 </head>
 
-<body>
+<body onload="DefaultWeather()">
 
   <h1 class="col s12 center-align" id="nav">WEATHER DASHBOARD</h1>
 
@@ -24,10 +23,10 @@
       <form class="col s12" id="inputCity">
         <h3>Search for a City:</h3>
         <div class="input-field col s12">
-          <input placeholder="New York" type="text" class="materialize-textarea" id="inputValue"></input>
+          <input placeholder="New York" type="text" class="materialize-textarea" id="cityInput"></input>
         </div>
       </form>
-      <button class="search-btn" class="waves-effect waves-light btn-large" type="submit">search</button>
+      <button class="search-btn" class="waves-effect waves-light btn-large">search</button>
       <br>
     </div>
 
@@ -35,13 +34,11 @@
       <div class="col s12 m6 l10">
         <div class="card" id="currentday">
           <div class="card-content white-text" id="bgd">
-            <p class="city">Weather in Seattle</p>
+            <h3 class="cityName">Weather in Seattle</h3>
             <span class="card-title" class="date" id="date">07/29/22</span>
-            <img src="" alt="weather icon" class="w-icon">
-            <p>Temp:</p>
-            <p>Wind:</p>
-            <p>Humidity:</p>
-            <p>UV Index:</p>
+            <p class="temp">Temp:</p>
+            <p class="wind">Wind:</p>
+            <p class="humidity">Humidity:</p>
           </div>
         </div>
       </div>
@@ -60,7 +57,6 @@
         <div class="card" id="day1">
           <div class="card-content white-text" id="bgd">
             <span class="card-title">07/29/22</span>
-            <img src="" alt="weather icon" class="w-icon">
             <p class="temp">Temp:</p>
             <p class="wind">Wind:</p>
             <p class="humidity">Humidity:</p>
@@ -71,7 +67,6 @@
         <div class="card" id="day2">
           <div class="card-content white-text" id="bgd">
             <span class="card-title">07/29/22</span>
-            <img src="" alt="weather icon" class="w-icon">
             <p class="temp">Temp:</p>
             <p class="wind">Wind:</p>
             <p class="humidity">Humidity:</p>
@@ -82,7 +77,6 @@
         <div class="card" id="day3">
           <div class="card-content white-text" id="bgd">
             <span class="card-title">07/29/22</span>
-            <img src="" alt="weather icon" class="w-icon">
             <p class="temp">Temp:</p>
             <p class="wind">Wind:</p>
             <p class="humidity">Humidity:</p>
@@ -93,7 +87,6 @@
         <div class="card" id="day4">
           <div class="card-content white-text" id="bgd">
             <span class="card-title">07/29/22</span>
-            <img src="" alt="weather icon" class="w-icon">
             <p class="temp">Temp:</p>
             <p class="wind">Wind:</p>
             <p class="humidity">Humidity:</p>
@@ -104,7 +97,6 @@
         <div class="card" id="day5">
           <div class="card-content white-text" id="bgd">
             <span class="card-title">07/29/22</span>
-            <img src="" alt="weather icon" class="w-icon">
             <p class="temp">Temp:</p>
             <p class="wind">Wind:</p>
             <p class="humidity">Humidity:</p>
