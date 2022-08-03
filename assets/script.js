@@ -69,7 +69,7 @@ function getWeather() {
             var speed = data.list[0]['wind']['speed'];
 
             // document.querySelector(".city").innerHTML = newName;
-            document.querySelector(".temp").innerHTML = "Temp: " + temp + "°C";
+            document.querySelector(".temp").innerHTML = "Temp: " + temp + "°F";
             document.querySelector(".humidity").innerHTML = "Humidity: " + humidity + "%";
             document.querySelector(".wind").innerHTML = "Wind speed: " + speed + " MPH";
 
@@ -80,7 +80,7 @@ function getWeather() {
             console.log(name, temp, humidity, speed)
 
             // document.querySelector(".city").innerHTML = newName;
-            document.querySelector(".temp1").innerHTML = "Temp: " + temp + "°C";
+            document.querySelector(".temp1").innerHTML = "Temp: " + temp + "°F";
             document.querySelector(".humidity1").innerHTML = "Humidity: " + humidity + "%";
             document.querySelector(".wind1").innerHTML = "Wind speed: " + speed + " MPH";
 
@@ -91,7 +91,7 @@ function getWeather() {
             console.log(name, temp, humidity, speed)
 
             // document.querySelector(".city").innerHTML = newName;
-            document.querySelector(".temp2").innerHTML = "Temp: " + temp + "°C";
+            document.querySelector(".temp2").innerHTML = "Temp: " + temp + "°F";
             document.querySelector(".humidity2").innerHTML = "Humidity: " + humidity + "%";
             document.querySelector(".wind2").innerHTML = "Wind speed: " + speed + " MPH";
 
@@ -102,7 +102,7 @@ function getWeather() {
             console.log(name, temp, humidity, speed)
 
             // document.querySelector(".city").innerHTML = newName;
-            document.querySelector(".temp3").innerHTML = "Temp: " + temp + "°C";
+            document.querySelector(".temp3").innerHTML = "Temp: " + temp + "°F";
             document.querySelector(".humidity3").innerHTML = "Humidity: " + humidity + "%";
             document.querySelector(".wind3").innerHTML = "Wind speed: " + speed + " MPH";
 
@@ -113,7 +113,7 @@ function getWeather() {
             console.log(name, temp, humidity, speed)
 
             // document.querySelector(".city").innerHTML = newName;
-            document.querySelector(".temp4").innerHTML = "Temp: " + temp + "°C";
+            document.querySelector(".temp4").innerHTML = "Temp: " + temp + "°F";
             document.querySelector(".humidity4").innerHTML = "Humidity: " + humidity + "%";
             document.querySelector(".wind4").innerHTML = "Wind speed: " + speed + " MPH";
 
@@ -124,7 +124,7 @@ function getWeather() {
             console.log(name, temp, humidity, speed)
 
             // document.querySelector(".city").innerHTML = newName;
-            document.querySelector(".temp5").innerHTML = "Temp: " + temp + "°C";
+            document.querySelector(".temp5").innerHTML = "Temp: " + temp + "°F";
             document.querySelector(".humidity5").innerHTML = "Humidity: " + humidity + "%";
             document.querySelector(".wind5").innerHTML = "Wind speed: " + speed + " MPH";
         })
