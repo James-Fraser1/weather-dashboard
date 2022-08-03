@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- CSS Style Sheet Reference -->
+  <link rel="stylesheet" href="assets/styles.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+  <title>Weather Dashboard</title>
+</head>
+
+  <h1 class="col s12 center-align" id="nav">WEATHER DASHBOARD</h1>
+
+  <div class="row">
+    <div class="col s12 m4 l3 .left-align">
+      <form class="col s12">
+        <h3>Search for a City:</h3>
+        <div class="input-field col s12">
+          <input placeholder="New York" type="text" class="materialize-textarea" id="cityInput"></input>
+        </div>
+      </form>
+      <button class="search-btn" class="waves-effect waves-light btn-large">search</button>
+      <br>
+    </div>
+
+    <div class="col s12 m4 l9">
+      <div class="col s12 m6 l10">
+        <div class="card" id="currentday">
+          <div class="card-content white-text" id="bgd">
+            <h3 id="cityName">Weather in </h3>
+            <span class="card-title" class="date" id="date">07/29/22</span>
+            <p class="temp">Temp:</p>
+            <p class="wind">Wind:</p>
+            <p class="humidity">Humidity:</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Local History -->
+  <div class="row">
+    <div class="col s12 m4 l3 .left-align">
+      <a class="waves-effect waves-light btn-large" id="Btn">Atlanta</a>
+      <a class="waves-effect waves-light btn-large" id="Btn">San Francisco</a>
+    </div>
+    <!-- M/T/W/R/F Weather Cards -->
+    <div class="col s12 m4 l9">
+      <div class="col s12 m6 l2">
+        <div class="card" id="currentday">
+          <div class="card-content white-text" id="bgd">
+            <span class="card-title" class="date1" id="date1">07/29/22</span>
+            <p class="temp1">Temp:</p>
+            <p class="wind1">Wind:</p>
+            <p class="humidity1">Humidity:</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l2">
+        <div class="card" id="day2">
+          <div class="card-content white-text" id="bgd">
+            <span class="card-title" class="date2" id="date2">07/29/22</span>
+            <p class="temp2">Temp:</p>
+            <p class="wind2">Wind:</p>
+            <p class="humidity2">Humidity:</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l2">
+        <div class="card" id="day3">
+          <div class="card-content white-text" id="bgd">
+            <span class="card-title" class="date3" id="date3">07/29/22</span>
+            <p class="temp3">Temp:</p>
+            <p class="wind3">Wind:</p>
+            <p class="humidity3">Humidity:</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l2">
+        <div class="card" id="day4">
+          <div class="card-content white-text" id="bgd">
+            <span class="card-title" class="date4" id="date4">07/29/22</span>
+            <p class="temp4">Temp:</p>
+            <p class="wind4">Wind:</p>
+            <p class="humidity4">Humidity:</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l2">
+        <div class="card" id="day5">
+          <div class="card-content white-text" id="bgd">
+            <span class="card-title" class="date5" id="date5">07/29/22</span>
+            <p class="temp5">Temp:</p>
+            <p class="wind5">Wind:</p>
+            <p class="humidity5">Humidity:</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</body>
+
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="assets/script.js" defer></script>
+
+</html>
