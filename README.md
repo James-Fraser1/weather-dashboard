@@ -32,6 +32,8 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
 
+![8C59E5CA-A9E7-4B9B-B17F-E2D616FBC0E2](https://user-images.githubusercontent.com/105461444/182977766-d960e915-b641-429b-9e02-9d1590fd9ef4.jpeg)
+
 ## **Installation &#128391;**
 1. Clone the repository and download it to your computer
 2. Sign up on the **[OpenWeather Once Call API](https://openweathermap.org/api/one-call-api)** website and get an API key.
